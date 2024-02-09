@@ -1,13 +1,8 @@
 import { Box, Flex, Heading } from '@chakra-ui/react'
-import React, { useState } from 'react'
 import { FaHome } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import { FaSun } from "react-icons/fa6";
-import { FaMoon } from "react-icons/fa";
-import { HiMiniBars3BottomRight } from "react-icons/hi2";
 const Navbar = () => {
   
-  const [theme , setTheme] = useState(false)
 
   
   return (
